@@ -50,7 +50,7 @@ public class EmpleadoControlador {
                 return false;
             }
         }
-        return puntos <= 1; // máximo un punto decimal
+        return puntos <= 1;
     }
 
     private String validar(String cedula, String nombre, String salario,
